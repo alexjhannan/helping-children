@@ -1,0 +1,18 @@
+{
+  "name": "helping-children",
+  "version": "1.0.0",
+  "description": "Website for HCU children's books.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "nodemon": "^1.8.1"
+  },
+  "engines": {
+    "node": "4.1.1"
+  }
+}
