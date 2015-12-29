@@ -1,7 +1,20 @@
 body{
+	padding-top: 30px;
 	padding-bottom: 50px;
 	background-image: url('images/background-texture.png');
 	color: black;
+}
+
+h1, h2, h3, h4, .navbar-brand{
+	font-family: Schoolbell;
+}
+
+.navbar-brand{
+	color: #FFb549 !important;
+}
+
+h3{
+	padding-bottom: 5px;
 }
 
 .navbar{
@@ -13,6 +26,30 @@ body{
 	background-color: #FFb549;
 	border: 2px solid black;
 	border-radius: 30px;
+}
+
+.panel2{
+	background-color: #a7c6e6;
+	border: 2px solid black;
+	border-radius: 30px;
+	margin-bottom: 20px;
+}
+
+.panel3{
+	background-color: #a8a7e6;
+	border: 2px solid black;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	color: black;
+}
+
+.panel3 h1{
+	color: black;
+}
+
+.thumbnail{
+	height: 80px;
+	float: left;
 }
 
 .bookportrait{
@@ -45,4 +82,8 @@ hr{
 
 .abouttext{
 	padding: 10px;
+}
+
+.review{
+	margin-left: 40px;
 }
