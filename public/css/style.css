@@ -1,7 +1,7 @@
 body{
 	padding-top: 30px;
 	padding-bottom: 50px;
-	background-image: url('images/background-texture.png');
+	background-image: url('../images/background-texture.png');
 	color: black;
 }
 
@@ -82,4 +82,18 @@ hr{
 
 .abouttext{
 	padding: 10px;
+}
+
+#socialmedia a, #smallmedia a{
+	outline: none;
+	color: black;
+	font-size: 75px;
+}
+
+#smallmedia a{
+	font-size: 20px;
+}
+
+#socialmedia a:hover{
+	text-decoration: none;
 }
