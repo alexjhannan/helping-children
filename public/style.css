@@ -1,3 +1,48 @@
-navbar{
-	border-radius: 0;
+body{
+	padding-top: 50px;
+	background-image: url('images/background-texture.png');
+	color: black;
+}
+
+.navbar{
+	background-color: black;
+	border: black;
+}
+
+.panel{
+	background-color: #FFb549;
+	border: 2px solid black;
+	border-radius: 30px;
+}
+
+.bookportrait{
+	border: 2px solid black;
+	border-radius: 50%;
+	width: 100%;
+}
+
+.bookimage{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.smalldivider{
+	margin-top: -5px;
+	margin-bottom: 5px;
+}
+
+
+hr{
+	border: black 1px solid;
+}
+
+.aboutportrait{
+	width: 100%;
+	border-radius: 25%;
+	border: 2px solid black;
+	position: relative;
+}
+
+.abouttext{
+	padding: 10px;
 }
