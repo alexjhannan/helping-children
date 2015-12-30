@@ -97,3 +97,32 @@ hr{
 #socialmedia a:hover{
 	text-decoration: none;
 }
+
+#contactform{
+	background-color: #a8a7e6;
+	float: right;
+	padding: 20px;
+	border-radius: 20px;
+	width: 50%;
+}
+
+#contactform input, #contactform textarea{
+	width: 100%;
+	resize: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 2em;
+}
+
+#contactform textarea{
+	height: 120px;
+}
+
+#contactform label{
+	margin-left: 15px;
+}
+
+#contactform button{
+	background-color: #a7c6e6;
+	float: right;
+}
