@@ -94,7 +94,7 @@ hr{
 	font-size: 20px;
 }
 
-#socialmedia a:hover{
+#smallmedia > div > a{
 	text-decoration: none;
 }
 
