@@ -98,12 +98,8 @@ hr{
 	text-decoration: none;
 }
 
-#contactform{
-	background-color: #a8a7e6;
-	float: right;
-	padding: 20px;
-	border-radius: 20px;
-	width: 50%;
+#formInput{
+	padding: 10px;
 }
 
 #contactform input, #contactform textarea{
@@ -122,7 +118,30 @@ hr{
 	margin-left: 15px;
 }
 
+
 #contactform button{
 	background-color: #a7c6e6;
-	float: right;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+#contactform label{
+	margin-top: 3px;
+	border-bottom: 2px solid black;
+}
+
+#submitMessage{
+	background-color: #FFb549;
+	border-radius: 30px;
+	padding: 10px;
+	border: 2px solid black;
+	margin-bottom: 10px;
+}
+
+#errorMessage{
+	background-color: palevioletred;
+	border-radius: 30px;
+	padding: 10px;
+	border: 2px solid black;
+	margin-bottom: 10px;
 }

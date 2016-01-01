@@ -1,8 +1,11 @@
 // boot up application
 var express = require('express');
 var app = express();
+
+// email modules
 var bodyParser = require('body-parser');
-var nodemailer = require('nodemailer');		// for sending emails
+var nodemailer = require('nodemailer');
+
 
 // smtp configuration
 var smtpTransport = nodemailer.createTransport("smtps://hannanEmailer%40gmail.com:gnu5thbred@smtp.gmail.com");
@@ -11,7 +14,7 @@ var smtpTransport = nodemailer.createTransport("smtps://hannanEmailer%40gmail.co
 app.use(express.static(__dirname + '/public')); 	// serve static files from ./public
 
 app.get('/', function(req, res){		// serve index
-	res.sendFile(__dirname + './assets/index.html');
+	res.sendFile(__dirname + '/assets/index.html');
 });
 
 app.post('/contactform', bodyParser.urlencoded({ extended: true }), function(req, res){		// send email with posted data
@@ -28,10 +31,10 @@ app.post('/contactform', bodyParser.urlencoded({ extended: true }), function(req
 	
 	smtpTransport.sendMail(mailOptions, function(err, res){
 		if (err) { console.log(err); }
-		else { console.log('Message sent ' + res.message )}
-	})
+		else { console.log('Message sent ');}
+	});
 	
-	res.end('thanks');
+	res.redirect('/');
 	
 });
 

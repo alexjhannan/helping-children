@@ -1,4 +1,4 @@
-<html>
+<html ng-app="HelpingChildren">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +13,7 @@
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body ng-controller="MainCtrl">
 	<nav class="navbar navbar-inverse navbar-fixed-bottom">
     <div class="container-fluid">
       <!-- header display w/ collapse button -->
@@ -239,31 +239,32 @@
         </div>
       </div>
       
-      <div id="contactform">
-        <form action="/contactform" method="post">
-          <label>Topic: </label>
-          <br />
-          <input type="text" name="subject"></input>
-          <br />
-          <label>Your Message: </label>
-          <br />
-          <textarea name="message"></textarea>
-          <br />
-          <label>Your Name: </label>
-          <br />
-          <input type="text" name="sender">
-          <br />
-          <label>Email: </label>
-          <br />
-          <input type="email" name="email"></input>
-          <br />
-          <br />
-          <button type="submit" class="btn">Submit</button>
-        </form>
+      <div id="contactform" class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 panel3">
+          <form id="formInput" action="/contactform" method="post">
+            <label>Topic: </label>
+            <br />
+            <input type="text" name="subject" minlength="2" required></input>
+            <br />
+            <label>Your Message: </label>
+            <br />
+            <textarea type="text" name="message" required></textarea>
+            <br />
+            <label>Your Name: </label>
+            <br />
+            <input type="text" name="sender" required>
+            <br />
+            <label>Email: </label>
+            <br />
+            <input type="email" name="email" required></input>
+            <br />
+            <br />
+            <button class="btn" type="submit" id="submitbutton">Submit</button>
+          </form>
+        </div>
       </div>
     </div><!-- /#socialmedia -->
     
 	</div>
-  <script src="js/size-media-buttons.js"></script>
 </body>
 </html>
