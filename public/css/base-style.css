@@ -1,0 +1,56 @@
+/*
+
+brand colors:
+
+	white: f0f0f0
+	black: 222
+	body-bg: ffb549
+	header-bg: a8a7e6
+
+*/
+
+body{
+	padding-top: 50px;
+	background-image: url('../images/background-texture.png');
+	color: #222;
+}
+
+h1, h2, h3, h4, .navbar-brand{
+	font-family: Schoolbell;
+}
+
+.navbar-brand{
+	color: #FFb549 !important;
+}
+
+h3{
+	padding-bottom: 5px;
+}
+
+.navbar{
+	background-color: #222;
+	border: #222;
+}
+
+.body-panel{
+	background-color: #FFb549;
+	border: 2px solid #222;
+	border-radius: 30px;
+	margin-bottom: 10px;
+}
+
+.header-panel{
+	background-color: #a8a7e6;
+	border: 2px solid #222;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	color: #222;
+}
+
+.header-panel h1{
+	color: #222;
+}
+
+hr{
+	border: #222 1px solid;
+}

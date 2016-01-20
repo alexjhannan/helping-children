@@ -1,0 +1,10 @@
+.aboutportrait{
+	width: 100%;
+	border-radius: 25%;
+	border: 2px solid #222;
+	position: relative;
+}
+
+.abouttext{
+	padding: 10px;
+}

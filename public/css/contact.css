@@ -1,0 +1,53 @@
+#largemedia a{
+	outline: none;
+	color: #222;
+	font-size: 75px;
+}
+
+
+#formInput{
+	padding: 0 20px;
+}
+
+#contacthead {
+	position: relative;
+	top: 25px;
+}
+
+#contactform input, #contactform textarea{
+	background-color: #f0f0f0;
+	width: 100%;
+	resize: none;
+	border: 2px solid #222;
+	border-radius: 5px;
+	padding-left: 20px;
+	font-size: 1.3em;
+}
+
+#contactform textarea{
+	height: 120px;
+}
+
+#contactform label{
+	margin-left: 15px;
+}
+
+
+#contactform button{
+	background-color: #222;
+	border: 2px solid #222;
+	border-radius: 5px;
+	color: #f0f0f0;
+}
+
+#contactform label{
+	margin-top: 3px;
+	border-bottom: 2px solid #222;
+}
+
+#largemedia {
+	margin-bottom: 10px;
+}
+#largemedia > div > a{
+	text-decoration: none;
+}

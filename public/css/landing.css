@@ -1,0 +1,43 @@
+#hero-panel {
+	margin-top: 50px;
+	margin-bottom: 0;
+	height: 40%;
+	background-color: #a8a7e6;
+	border-top: 10px solid #222;
+	border-radius: 20px 20px 0 0;
+}
+
+#smallmedia a{
+	outline: none;
+	color: #222;
+	font-size: 75px;
+}
+
+#smallmedia a{
+	font-size: 20px;
+}
+
+#smallmedia > div > a{
+	text-decoration: none;
+}
+
+#carousel {
+	margin-top: 0;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	background-color: #a8a7e6;
+	border-bottom: 10px solid #222;
+	border-radius: 0 0 20px 20px;
+}
+
+#carousel .pic{
+  margin: 2px;
+}
+
+#carousel .pic img{
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #222;
+  border-radius: 10px;
+}

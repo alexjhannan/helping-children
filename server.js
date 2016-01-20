@@ -13,8 +13,24 @@ var smtpTransport = nodemailer.createTransport("smtps://hannanEmailer%40gmail.co
 // routing
 app.use(express.static(__dirname + '/public')); 	// serve static files from ./public
 
-app.get('/', function(req, res){		// serve index
-	res.sendFile(__dirname + '/assets/index.html');
+app.get('/', function(req, res){
+	res.sendFile(__dirname + '/public/html/landing.html');
+});
+
+app.get('/books', function(req, res){
+	res.sendFile(__dirname + '/public/html/books.html');
+});
+
+app.get('/about', function(req, res){
+	res.sendFile(__dirname + '/public/html/about.html');
+});
+
+app.get('/mentions', function(req, res){
+	res.sendFile(__dirname + '/public/html/mentions.html');
+});
+
+app.get('/contact', function(req, res){
+	res.sendFile(__dirname + '/public/html/contact.html');
 });
 
 app.post('/contactform', bodyParser.urlencoded({ extended: true }), function(req, res){		// send email with posted data
