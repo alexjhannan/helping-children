@@ -7,6 +7,10 @@
 	border-radius: 20px 20px 0 0;
 }
 
+#subtitle{
+	margin-top: 25px;
+}
+
 #smallmedia a{
 	outline: none;
 	color: #222;

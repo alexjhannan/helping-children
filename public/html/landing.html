@@ -91,7 +91,8 @@
 
 	<script>
 
-		$(document).ready(function() {
+	// quick script to activate the carousel (runs after images are loaded)
+		$(window).load(function() {
  	
 			$("#carousel").owlCarousel({
 	 
@@ -106,6 +107,7 @@
 
 			});
 
+			// display carousel once ready
 			$('#carousel').show();
 		});
 	</script>
