@@ -9,9 +9,9 @@
 	padding: 0 20px;
 }
 
-#contacthead {
-	position: relative;
-	top: 25px;
+.body-panel{
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
 }
 
 #contactform input, #contactform textarea{
@@ -19,7 +19,7 @@
 	width: 100%;
 	resize: none;
 	border: 2px solid #222;
-	border-radius: 5px;
+	border-radius: 0px 0px 5px 5px;
 	padding-left: 20px;
 	font-size: 1.3em;
 }

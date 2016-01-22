@@ -29,10 +29,6 @@ h1, h2, h3, h4, .navbar-brand{
 	padding-top: 13px;
 }
 
-.navbar-inverse .navbar-nav>li>a.btn-danger:hover {
-    background-color: #d9534f;
-}
-
 h3{
 	padding-bottom: 5px;
 }
@@ -52,8 +48,8 @@ h3{
 .header-panel{
 	background-color: #a8a7e6;
 	border: 2px solid #222;
-	border-radius: 20px 20px 5px 5px;
-	margin-bottom: 20px;
+	border-bottom: none;
+	border-radius: 20px 20px 0px 0px;
 	color: #222;
 }
 
@@ -63,4 +59,9 @@ h3{
 
 hr{
 	border: #222 1px solid;
+}
+
+.smalldivider{
+	margin-top: -5px;
+	margin-bottom: 5px;
 }

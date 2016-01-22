@@ -1,4 +1,3 @@
-.smalldivider{
-	margin-top: -5px;
-	margin-bottom: 5px;
+.sharp-top-left-corner{
+	border-top-left-radius: 0px;
 }
