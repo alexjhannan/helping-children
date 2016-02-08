@@ -8,7 +8,7 @@ var nodemailer = require('nodemailer');
 
 
 // smtp configuration
-var smtpTransport = nodemailer.createTransport("smtps://hannanEmailer%40gmail.com:gnu5thbred@smtp.gmail.com");
+var smtpTransport = nodemailer.createTransport(process.env.LOGIN);
 
 // routing
 app.use(express.static(__dirname + '/public')); 	// serve static files from ./public
