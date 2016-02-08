@@ -39,7 +39,7 @@ app.post('/contactform', bodyParser.urlencoded({ extended: true }), function(req
 		
 	var mailOptions = {
 		from: req.body.sender + '<' + req.body.email + '>',
-		to: 'carolynhannan@comcast.net',
+		to: 'alexjhannan@gmail.com',
 		subject: req.body.subject,
 		text: automatedMessage + req.body.message + 'From: ' + req.body.sender + 'Email:' + req.body.email,
 		html: '<p><strong>' + automatedMessage + '</p></strong>' + '<br /><p>' + req.body.message + '<br /><br />From: ' + req.body.sender + '<br />Email: ' + req.body.email +'</p>'
