@@ -38,6 +38,15 @@ h3{
 	border: #222;
 }
 
+.navbar-inverse .navbar-nav > li > a {
+  color: #a8a7e6;
+}
+
+.active{
+	color: #fcfcfc !important;
+	font-size: 20px;
+}
+
 .body-panel{
 	background-color: #FFb549;
 	border: 2px solid #222;
@@ -70,3 +79,4 @@ hr{
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
 }
+
